@@ -72,8 +72,6 @@ a.active, a:hover{
     }
 }
 
-
-
 .carousel-caption{
     position: relative;
     padding-top: 100px;
@@ -82,6 +80,7 @@ a.active, a:hover{
 .carousel-control-prev, .carousel-control-next {
     background :none !important;
     filter:none !important;
- }
+}
+
 
 
