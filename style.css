@@ -98,13 +98,20 @@ a.active, a:hover{
     width: 100%;
 }
 
-.slider .card .img .cimg{
-    padding: 0;
+@media (max-width : 3000px){
+    .slider .card .img .cimg{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        height: 100%;
+        width: 80%;
+    }
+}
+.contact-form{
     padding-top: 10px;
-    padding-bottom: 15px;
     padding-left: 50px;
-    height: 100%;
-    width: 80%;
+    width: 50%;
 }
 
 
