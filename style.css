@@ -94,25 +94,75 @@ a.active, a:hover{
 
 }
 .slider .card .img {
-    height: 250px;
+    height: 200px;
     width: 100%;
 }
 
 @media (max-width : 3000px){
     .slider .card .img .cimg{
-        padding: 0;
         padding-top: 10px;
         padding-bottom: 15px;
         padding-left: 50px;
         height: 100%;
         width: 80%;
     }
+    .slider .card .img .iimg{
+        padding-top: 40px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        height: 80%;
+        width: 80%;
+    }   
+    
 }
+@media (max-width : 1200px){
+    .slider .card .img .cimg{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        left: 5px;
+        height: 90%;
+        width: 80%;
+    } 
+    .slider .card .img .iimg{
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        left: 5px;
+        height: 80%;
+        width: 80%;
+    }   
+
+}
+@media (max-width : 992px){
+    .slider .card .img .cimg{
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        left: 10px;
+        height: 85%;
+        width: 80%;
+    } 
+    .slider .card .img .iimg{
+        padding: 0;
+        padding-top: 60px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        left: 10px;
+        height: 80%;
+        width: 80%;
+    }    
+}
+
 .contact-form{
     padding-top: 10px;
     padding-left: 50px;
     width: 50%;
 }
+
 
 
 
